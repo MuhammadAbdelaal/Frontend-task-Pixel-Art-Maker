@@ -7,6 +7,12 @@ const submit = select("submit");
 const pixelCanvas = select("pixelCanvas");
 let color = "#000"; //set a default value for color if user did not select new one
 
+
+// update the color on user input
+colorInput.addEventListener("change", () => {
+  color = colorInput.value;
+});
+
 /* on Click submit button 
 1st: do not refresh the page
 2nd: call makeGrid function
@@ -54,10 +60,6 @@ function makeGrid() {
 
 // color the cells on click
 function colorOnClick() {
-  // update the color on user input
-  colorInput.addEventListener("input", () => {
-    color = colorInput.value;
-  });
 
   // save all cells in an array
   let allCells = document.querySelectorAll("#pixelCanvas td");
