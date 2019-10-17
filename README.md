@@ -1,12 +1,10 @@
 # Pixel Art Maker Project
 
-## Table of Contents
+## Task submitted by
 
-* [Instructions](#instructions)
-* [Contributing](#contributing)
+### Muhammad Reda Abdelaal
+#### Email
+dev.mureda@gmail.com
 
-## Instructions
-
-To get started, open `designs.js` and start building out the app's functionality.
 
 
